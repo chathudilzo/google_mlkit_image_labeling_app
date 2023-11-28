@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:get/get.dart';
 import 'package:google_ml_kit/google_ml_kit.dart';
+import 'package:google_mlkit_image_labeling_app/controllers/caption_controller.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ImageLabelController extends GetxController{
@@ -36,6 +37,15 @@ class ImageLabelController extends GetxController{
       labels.value=detectedLabels;
 
       imageLabeler.close();
+
+      if(labels.isNotEmpty){
+        final List<String> caps=labels.map((label) =>label.label ).toList();
+        if(caps.isNotEmpty){
+          final CaptionController controller=Get.find();
+
+          controller.getCaptions(caps);
+        }
+      }
     }
     }catch(error){
       print('ERROR:::'+error.toString());
