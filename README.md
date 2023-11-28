@@ -6,11 +6,12 @@ This Flutter app utilizes Google ML Kit to perform image labeling and generate c
 
 ## Features
 
-<img src="https://raw.githubusercontent.com/chathudilzo/google_mlkit_image_labeling_app/main/assets/93638679/61b6be41-647f-4c52-a731-981800c23484" alt="Image 1" width="400" height="500">
+<img src="https://raw.githubusercontent.com/chathudilzo/google_mlkit_image_labeling/main/assets/93638679/61b6be41-647f-4c52-a731-981800c23484" alt="Image 1" width="400" height="500">
 
-<img src="https://raw.githubusercontent.com/chathudilzo/google_mlkit_image_labeling_app/main/assets/93638679/cc11ac6e-815c-4530-a619-c4f393ed6c2a" alt="Image 2" width="400" height="500">
+<img src="https://raw.githubusercontent.com/chathudilzo/google_mlkit_image_labeling/main/assets/93638679/cc11ac6e-815c-4530-a619-c4f393ed6c2a" alt="Image 2" width="400" height="500">
 
-<img src="https://raw.githubusercontent.com/chathudilzo/google_mlkit_image_labeling_app/main/assets/93638679/b2e0be4f-9b21-4594-93b9-0ed69781f0aa" alt="Image 3" width="400" height="500">
+<img src="https://raw.githubusercontent.com/chathudilzo/google_mlkit_image_labeling/main/assets/93638679/b2e0be4f-9b21-4594-93b9-0ed69781f0aa" alt="Image 3" width="400" height="500">
+
 
 
 
