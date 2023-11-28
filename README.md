@@ -1,16 +1,54 @@
-# google_mlkit_image_labeling
+# Image Labeling and Caption Generator App
 
-A new Flutter project.
+## Overview
+
+This Flutter app utilizes Google ML Kit to perform image labeling and generate captions for selected images. It's a simple yet powerful tool that allows users to understand the content of images and generate descriptive captions.
+
+## Features
+
+![1701175135639](https://github.com/chathudilzo/google_mlkit_image_labeling/assets/93638679/61b6be41-647f-4c52-a731-981800c23484)
+
+
+![1701175135608](https://github.com/chathudilzo/google_mlkit_image_labeling/assets/93638679/cc11ac6e-815c-4530-a619-c4f393ed6c2a)
+
+
+![1701175135586](https://github.com/chathudilzo/google_mlkit_image_labeling/assets/93638679/b2e0be4f-9b21-4594-93b9-0ed69781f0aa)
+
+
+- **Image Labeling:** Utilizes Google ML Kit Vision API for image labeling, providing information about objects, entities, and activities in the image.
+
+- **Caption Generation:** Generates descriptive captions for the selected images, enhancing the understanding of the image content.
+
+- **User-Friendly Interface:** A clean and intuitive user interface for easy interaction with the app.
+
+## Screenshots
+
+Include screenshots or GIFs showcasing your app's user interface and functionality.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/docs/get-started/install)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Usage
+Open the app on your device or emulator.
+
+Pick an image from the gallery.
+
+Tap on the "Label Image" button to perform image labeling.
+
+Optionally, tap on the "Generate Caption" button to generate a descriptive caption.
+
+### Built With
+Flutter
+Google ML Kit
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+
+
+Acknowledgments
+Thanks to the Flutter and Google ML Kit communities for providing excellent tools and resources.
